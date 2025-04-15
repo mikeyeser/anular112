@@ -48,4 +48,18 @@ this.title = ""
 del(){
   this.array = []
 }
+
+
+
+
+
+
+
+
+
+
+
+hello = ""
+gooodbyye = ""
+
 }
