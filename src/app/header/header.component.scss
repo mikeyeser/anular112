@@ -1,0 +1,40 @@
+.div{
+    display: flex;
+    justify-content: end;
+nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        width: 50%;
+        li{
+            a{
+              text-decoration: none;
+            }
+        }
+    }
+}
+}
+
+.idkbro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    h1{
+        font-size: 40px;
+        a{
+            text-decoration: overline;
+            color: rgb(255, 255, 255);
+        }
+    }
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
