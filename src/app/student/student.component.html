@@ -1,0 +1,31 @@
+
+
+<input type="text" [(ngModel)]="student.name"             > 
+<input type="text" [(ngModel)]="student.age"              > 
+<input type="text" [(ngModel)]="student.email"            > 
+<input type="text" [(ngModel)]="student.adress.city"      > 
+<input type="text" [(ngModel)]="student.adress.street"    > 
+<input type="text" [(ngModel)]="student.adress.zip"       >
+
+<button (click)="addstudent()" >Add student</button>
+
+
+<div class="div" *ngIf="show" >
+
+<div class="card " style="width: 18rem;" *ngFor="let el of studentArr">
+    
+    
+      <p class="card-text">name:{{el.name}}</p>
+      <p class="card-text">age:{{el.age}}</p>
+      <p class="card-text">email:{{el.email}}</p>
+      <p class="card-text">city:{{el.adress.city}}</p>
+      <p class="card-text">street:{{el.adress.street}}</p>
+      <p class="card-text">zip:{{el.adress.zip}}</p>
+      
+      
+    
+  </div>
+</div>
+
+
+

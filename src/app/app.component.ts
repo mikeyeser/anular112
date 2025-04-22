@@ -4,10 +4,11 @@ import { FooterComponent } from "./footer/footer.component";
 import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
 import { HomeComponent } from "./home/home.component";
+import { StudentComponent } from './student/student.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, FooterComponent, HeaderComponent, MainComponent, HomeComponent],
+  imports: [RouterOutlet, FooterComponent, HeaderComponent, MainComponent, HomeComponent, StudentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
