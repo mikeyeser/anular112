@@ -19,7 +19,7 @@ export class HomeComponent {
 
 array :(string | number)[] = []
 title = ""  
-
+title2 = ""
 delete(ind : number){
  this.array.splice(ind,1)
 }
@@ -30,19 +30,20 @@ save(){
 
   
   this.title != ""? this.array.push(this.title): this.showeror = true
+  this.title2 != ""? this.array.push(this.title2): this.showeror = true
+  // if( this.title !="" ){
+  //   this.array.push(this.title)
+  //   this.showeror = false
+  // }
+  // else{
 
-  if( this.title !="" ){
-    this.array.push(this.title)
-    this.showeror = false
-  }
-  else{
-
-  }
+  // }
 //  for(let el of this.array)(
 //   console.log(el)ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggdc sxe
 //  )
 console.log(this.array)
 this.title = ""
+this.title2 = ""
 }
 
 del(){
@@ -61,5 +62,8 @@ del(){
 
 hello = ""
 gooodbyye = ""
+
+
+
 
 }
