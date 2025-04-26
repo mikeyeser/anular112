@@ -1,0 +1,7 @@
+<div *ngFor="let el of usersData" >
+    <img routerLink='/users/{{el.id}}' [src]="el.avatar" alt="">
+    <div>
+        <h1>{{el.first_name}} {{el.last_name}}</h1>
+        <p>{{el.email}}</p>
+    </div>
+</div>
