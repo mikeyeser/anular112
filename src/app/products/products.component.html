@@ -1,0 +1,11 @@
+<div class="PANTS" >
+
+<div class="diver" *ngFor="let el of productdata" >
+    <img class="image" [src]="el.image" alt="">
+    <h1>{{el.title}}</h1>
+    <p>{{el.category}}</p>
+    <p>{{el.rate.rate}}</p>
+    <a routerLink="/product/{{el.id}}" >go to id</a>
+</div>
+
+</div>
