@@ -1,6 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { CommonService } from '../services/common.service';
+import { ApiService } from '../services/api.service';
+import { product } from '../Model/product';
 
 @Component({
   selector: 'app-home',
@@ -10,7 +13,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class HomeComponent {
 
-
+  constructor (private common : CommonService, private api : ApiService) {}
 
   showHidelist(){
     this.showlist ? this.showlist = false : this.showlist = true
@@ -75,6 +78,16 @@ hello = ""
 gooodbyye = ""
 
 
+whyme(){
+  this.api.getpro().subscribe((resp : any) => {
+    
+    
+    console.log
+    this.productArr = resp
+  })
+}
 
+
+productArr : product[] = []
 
 }

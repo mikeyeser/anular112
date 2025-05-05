@@ -29,80 +29,246 @@ export class ProductDetailsComponent {
   singlepro?: product = new product
  
 public productdata: product[] = [
-  
-
   {
-    "id": 1,
-    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-    "price": 109.95,
-    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    "rate": {
-      "rate": 3.9,
-      "count": 120
-    }
-  },
-  
-  {
-    "id": 2,
-    "title": "Mens Casual Premium Slim Fit T-Shirts ",
-    "price": 22.3,
-    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-    "rate": {
-      "rate": 4.1,
-      "count": 259
-    }
-  },
-  {
-    "id": 3,
-    "title": "Mens Cotton Jacket",
-    "price": 55.99,
-    "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-    "rate": {
-      "rate": 4.7,
-      "count": 500
-    }
-  },
-  {
-    "id": 4,
-    "title": "Mens Casual Slim Fit",
-    "price": 15.99,
-    "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-    "rate": {
-      "rate": 2.1,
-      "count": 430
-    }
-  },
-  {
-    "id": 5,
-    "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-    "price": 695,
-    "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-    "rate": {
-      "rate": 4.6,
-      "count": 400
-    }
+    'id': 1,
+    'title': "Essence Mascara Lash Princess",
+    'description': "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+    'category': "beauty",
+    'price': 9.99,
+    'discountPercentage': 7.17,
+    'rating': 4.94,
+    'stock': 5,
+    'tags': [
+      "beauty",
+      "mascara"
+    ],
+    'brand': "Essence",
+    'sku': "RCH45Q1A",
+    'weight': 2,
+    'dimensions': {
+      'width': 23.17,
+      'height': 14.43,
+      'depth': 28.01
+    },
+    'warrantyInformation': "1 month warranty",
+    'shippingInformation': "Ships in 1 month",
+    'availabilityStatus': "Low Stock",
+    'reviews': [
+      {
+        'rating': 2,
+        'comment': "Very unhappy with my purchase!",
+        'date': "2024-05-23T08:56:21.618Z",
+        'reviewerName': "John Doe",
+        'reviewerEmail': "john.doe@x.dummyjson.com"
+      },
+      {
+        'rating': 2,
+        'comment': "Not as described!",
+        'date': "2024-05-23T08:56:21.618Z",
+        'reviewerName': "Nolan Gonzalez",
+        'reviewerEmail': "nolan.gonzalez@x.dummyjson.com"
+      },
+      {
+        'rating': 5,
+        'comment': "Very satisfied!",
+        'date': "2024-05-23T08:56:21.618Z",
+        'reviewerName': "Scarlett Wright",
+        'reviewerEmail': "scarlett.wright@x.dummyjson.com"
+      }
+    ],
+    'returnPolicy': "30 days return policy",
+    'minimumOrderQuantity': 24,
+    'meta': {
+      'createdAt': "2024-05-23T08:56:21.618Z",
+      'updatedAt': "2024-05-23T08:56:21.618Z",
+      'barcode': "9164035109868",
+      'qrCode': "https://assets.dummyjson.com/public/qr-code.png"
+    },
+    'images': [
+      "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
+    ],
+    'thumbnail': "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
   },
   {
-    "id": 6,
-    "title": "Solid Gold Petite Micropave ",
-    "price": 168,
-    "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-    "category": "jewelery",
-    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-    "rate": {
-      "rate": 3.9,
-      "count": 70
-    }
+    'id': 2,
+    'title': "Eyeshadow Palette with Mirror",
+    'description': "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+    'category': "beauty",
+    'price': 19.99,
+    'discountPercentage': 5.5,
+    'rating': 3.28,
+    'stock': 44,
+    'tags': [
+      "beauty",
+      "eyeshadow"
+    ],
+    'brand': "Glamour Beauty",
+    'sku': "MVCFH27F",
+    'weight': 3,
+    'dimensions': {
+      'width': 12.42,
+      'height': 8.63,
+      'depth': 29.13
+    },
+    'warrantyInformation': "1 year warranty",
+    'shippingInformation': "Ships in 2 weeks",
+    'availabilityStatus': "In Stock",
+    'reviews': [
+      {
+        'rating': 4,
+        'comment': "Very satisfied!",
+        'date': "2024-05-23T08:56:21.618Z",
+        'reviewerName': "Liam Garcia",
+        'reviewerEmail': "liam.garcia@x.dummyjson.com"
+      },
+      {
+        'rating': 1,
+        'comment': "Very disappointed!",
+        'date': "2024-05-23T08:56:21.618Z",
+        'reviewerName': "Nora Russell",
+        'reviewerEmail': "nora.russell@x.dummyjson.com"
+      },
+      {
+        'rating': 5,
+        'comment': "Highly impressed!",
+        'date': "2024-05-23T08:56:21.618Z",
+        'reviewerName': "Elena Baker",
+        'reviewerEmail': "elena.baker@x.dummyjson.com"
+      }
+    ],
+    'returnPolicy': "30 days return policy",
+    'minimumOrderQuantity': 32,
+    'meta': {
+      'createdAt': "2024-05-23T08:56:21.618Z",
+      'updatedAt': "2024-05-23T08:56:21.618Z",
+      'barcode': "2817839095220",
+      'qrCode': "https://assets.dummyjson.com/public/qr-code.png"
+    },
+    'images': [
+      "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
+    ],
+    'thumbnail': "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
+  },
+  {
+    'id': 3,
+    'title': "Powder Canister",
+    'description': "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+    'category': "beauty",
+    'price': 14.99,
+    'discountPercentage': 18.14,
+    'rating': 3.82,
+    'stock': 59,
+    'tags': [
+      "beauty",
+      "face powder"
+    ],
+    'brand': "Velvet Touch",
+    'sku': "9EN8WLT2",
+    'weight': 8,
+    'dimensions': {
+      'width': 24.16,
+      'height': 10.7,
+      'depth': 11.07
+    },
+    'warrantyInformation': "2 year warranty",
+    'shippingInformation': "Ships in 1-2 business days",
+    'availabilityStatus': "In Stock",
+    'reviews': [
+      {
+        'rating': 5,
+        'comment': "Very happy with my purchase!",
+        'date': "2024-05-23T08:56:21.618Z",
+        'reviewerName': "Ethan Thompson",
+        'reviewerEmail': "ethan.thompson@x.dummyjson.com"
+      },
+      {
+        'rating': 4,
+        'comment': "Great value for money!",
+        'date': "2024-05-23T08:56:21.618Z",
+        'reviewerName': "Levi Hicks",
+        'reviewerEmail': "levi.hicks@x.dummyjson.com"
+      },
+      {
+        'rating': 5,
+        'comment': "Highly impressed!",
+        'date': "2024-05-23T08:56:21.618Z",
+        'reviewerName': "Hazel Gardner",
+        'reviewerEmail': "hazel.gardner@x.dummyjson.com"
+      }
+    ],
+    'returnPolicy': "60 days return policy",
+    'minimumOrderQuantity': 25,
+    'meta': {
+      'createdAt': "2024-05-23T08:56:21.618Z",
+      'updatedAt': "2024-05-23T08:56:21.618Z",
+      'barcode': "0516267971277",
+      'qrCode': "https://assets.dummyjson.com/public/qr-code.png"
+    },
+    'images': [
+      "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+    ],
+    'thumbnail': "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
+  },
+  {
+    'id': 4,
+    'title': "Red Lipstick",
+    'description': "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+    'category': "beauty",
+    'price': 12.99,
+    'discountPercentage': 19.03,
+    'rating': 2.51,
+    'stock': 68,
+    'tags': [
+      "beauty",
+      "lipstick"
+    ],
+    'brand': "Chic Cosmetics",
+    'sku': "O5IF1NTA",
+    'weight': 5,
+    'dimensions': {
+      'width': 14.37,
+      'height': 13.94,
+      'depth': 14.6
+    },
+    'warrantyInformation': "Lifetime warranty",
+    'shippingInformation': "Ships in 2 weeks",
+    'availabilityStatus': "In Stock",
+    'reviews': [
+      {
+        'rating': 5,
+        'comment': "Great product!",
+        'date': "2024-05-23T08:56:21.619Z",
+        'reviewerName': "Leo Rivera",
+        'reviewerEmail': "leo.rivera@x.dummyjson.com"
+      },
+      {
+        'rating': 4,
+        'comment': "Very pleased!",
+        'date': "2024-05-23T08:56:21.619Z",
+        'reviewerName': "Oscar Powers",
+        'reviewerEmail': "oscar.powers@x.dummyjson.com"
+      },
+      {
+        'rating': 5,
+        'comment': "Very pleased!",
+        'date': "2024-05-23T08:56:21.619Z",
+        'reviewerName': "Carter Rivera",
+        'reviewerEmail': "carter.rivera@x.dummyjson.com"
+      }
+    ],
+    'returnPolicy': "90 days return policy",
+    'minimumOrderQuantity': 6,
+    'meta': {
+      'createdAt': "2024-05-23T08:56:21.619Z",
+      'updatedAt': "2024-05-23T08:56:21.619Z",
+      'barcode': "9444582199406",
+      'qrCode': "https://assets.dummyjson.com/public/qr-code.png"
+    },
+    'images': [
+      "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
+    ],
+    'thumbnail': "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png"
   }
 ]
+
 } 
