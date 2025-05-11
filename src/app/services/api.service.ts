@@ -12,6 +12,9 @@ getpro(){
   return this.http.get('https://fakestoreapi.com/products')
 }
 
+getprodactByid(id : number){
+  return this.http.get(`https://fakestoreapi.com/products/${id}`)
+}
 
 
 
